@@ -6,4 +6,4 @@ function paint(string $color): string
     return $color;
 }
 
-echo paint (2);
+echo paint (1)  . "1";

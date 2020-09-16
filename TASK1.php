@@ -22,7 +22,7 @@ class Person {
 }
 $persons = [
     new Person('Druvis', 'Rudzitis'),
-    new Person('Peteris', 'Kalnins', 'Janis'),
+    new Person('Peteris', 'Kalnins'),
     new Person('Juris', 'Liepins', 'Ivars')
 ];
 foreach ($persons as $person) {
@@ -33,4 +33,3 @@ foreach ($persons as $person) {
     echo $person->surname() . " ";
     echo "\n";
 }
-

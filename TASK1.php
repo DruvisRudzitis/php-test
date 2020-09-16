@@ -21,7 +21,7 @@ class Person {
     }
 }
 $persons = [
-    new Person('Druvis', 'Rudzitis'),
+    new Person('Gatis', 'Rudzitis'),
     new Person('Peteris', 'Kalnins'),
     new Person('Juris', 'Liepins', 'Ivars')
 ];

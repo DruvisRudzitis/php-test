@@ -17,12 +17,12 @@ class Auto {
 }
 class Bmw extends Auto {
     public function bmwFeature(): string {
-        return "Xdrive";
+        return "X";
     }
 }
 class Vw extends Auto {
     public function vwFeature(): string {
-        return "4motion";
+        return "4";
     }
 }
 

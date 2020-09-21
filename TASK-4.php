@@ -87,7 +87,7 @@ if ($tries >= 3) {
         $gas = $gas - $per10km;
         $actualGas = round($gas);
         $km = $km + 10;
-        echo $car->getBrand() . " " . $car->getNumber() . " " . $km . "km " . $actualGas . " l " . "\n";
+        echo $car->getBrand() . " " . $car->getNumber() . " " . $km . "km " . $actualGas . " l" . "\n";
         sleep(1);
     }
 }

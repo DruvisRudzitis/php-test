@@ -20,5 +20,5 @@ $spices->add(new Pepper());
 
 foreach ($spices->all() as $spice) {
     /** @var Spice $spice */
-    echo $spice->getName() . PHP_EOL;
+    echo $spice->getName() . ' ' . PHP_EOL;
 }
